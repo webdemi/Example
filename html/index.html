@@ -5,8 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
     <link rel="icon" href="favicon.ico">
+    <style>
+        .pp{
+            color: chocolate;
+        }
+        .cp{
+            background-color: aqua;
+        }
+        #myid{
+            color: coral;
+        }
+    </style>
+    
 </head>
 <body>
+    <a href="#myimage"> image </a>
     <h1>My first website</h1>
     <p>today's date is 26/07/2023</p>
     <img src="images/camera_lense_0.jpeg"width="500px" style="border: 5px solid black;" alt="lens image">
@@ -45,6 +58,102 @@
     <p style="color: red; font-size: 50px;">This is a red color</p>
     <p style="font-size: 50px;">Font Size</p>
     <p style="background-color: blueviolet; font-size: 50px; color: white;">Background color</p>
+
+    <!-- Table tag -->
+
+    <table border="1">
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+        </tr>
+    </table>
+<br><br>
+<!-- colspan tag -->
+    <table border="1">
+        <tr>
+            <th colspan="2">2</th>
+            <th>3</th>
+            <th>4</th>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+        </tr>
+    </table>
+    <br><br>
+    <!-- rowspan tag -->
+    <table border="1">
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+        </tr>
+        <tr>
+            <td rowspan="2">5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+        </tr>
+    </table>
+<br><br>
+    <a href="internal.html" target="_blank" style="font-size: 50px;">internal CSS</a>
+
+    <!-- internal CSS through class -->
+    <p class="pp">One</p>
+    <p class="pp">Two</p>
+    <p class="cp">Three</p>
+    <p class="cp">Four</p>
+    <p id="myid"> my id</p>
+    <br><br>
+
+    <img src="images/download.jpeg" width="200px" id="myimage" alt="">
+
     
 </body>
 </html>
