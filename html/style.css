@@ -13,22 +13,24 @@
 }
 button{
     background: white;
-    border: 1px solid black;
+    border: none;
     border-radius: 50px;
     padding: 5px 10px;
     margin-left: 10px;
     transition: background 2s;
 }
 button{
-    transition: 2s;
+    transition: 0.1s;
 }
 button:hover{
-    background-color: cyan;
-    transform: scale(1.2)
+    color: white;
+    background: black;
+
+    
 }
 #i{
-    transition: 2s;
+    transition: 0.5s;
 }
 #i:hover{
-    transform: scale(1.5)  
+    transform: scale(1.1); 
 }
