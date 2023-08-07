@@ -34,3 +34,21 @@ button:hover{
 #i:hover{
     transform: scale(1.1); 
 }
+
+.Q{
+    width: 50%;
+    background-color: blue;
+}
+
+.W{
+    width: 50%;
+    background-color: yellow;
+}
+.E{
+    width: 50%;
+    background-color: red; 
+}
+.R{
+    width: 50%;
+    background-color: green;
+}

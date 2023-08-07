@@ -1,0 +1,46 @@
+*{
+    background-color: lightblue;
+}
+.one{
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 0%;
+    left: 35%;
+    background-color: rgb(255, 115, 0);
+
+}
+.two{
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 13%;
+    left: 35%;
+    background-color: white;
+}
+.three{
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 26%;
+    left: 35%;
+    background-color: green;
+}
+.four{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 13%;
+    left: 48%;
+    border-radius: 100%;
+    background-color: rgb(67, 67, 206);
+}
+.five{
+    width: 20px;
+    height: 1000px;
+    background-color: rgb(71, 6, 6);
+    position: absolute;
+    top: 0%;
+    left: 35%;
+
+}

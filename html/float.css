@@ -1,0 +1,31 @@
+.q{
+    width: 25%;
+    height: 250px;
+    background-color: blue;
+    float: left;
+}
+
+.w{
+    width: 25%;
+    height: 250px;
+    background-color: red;
+    float: left;
+}
+
+.e{
+    width: 25%;
+    height: 250px;
+    background-color: yellow;
+    float: left;
+}
+
+.r{
+    width: 25%;
+    height: 250px;
+    background-color: blue;
+    float: right;
+}
+img{
+    float: left;
+    width: 100px;
+}
